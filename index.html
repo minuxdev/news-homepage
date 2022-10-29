@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/main.css">
+  
+  <title>Frontend Mentor | News homepage</title>
+
+</head>
+<body>
+
+
+<header class="header">
+  <nav class="header_nav container">
+    <figure class="header_logo">
+      <img src="assets/images/logo.svg" alt="logo" class="general_img">
+    </figure>
+    <figure class="toggle" >
+      <img src="assets/images/icon-menu.svg" alt="toggle" class="general_img" onclick="toggleMenu(this, '.menu')">
+    </figure>
+    <ul class="menu">
+      <li class="menu_link">Home<a href="#"></a></li>
+      <li class="menu_link">New<a href="#"></a></li>
+      <li class="menu_link">Popular<a href="#"></a></li>
+      <li class="menu_link">Trending<a href="#"></a></li>
+      <li class="menu_link">Categories<a href="#"></a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="container banner">
+  <figure class="banner_img">
+    <img src="assets/images/image-web-3-mobile.jpg" alt="banner img" class="general_img" >
+  </figure>
+  <div class="banner_content">
+    <h1 class="banner_title">The Bright Future of Web 3.0?</h1>
+    <div>
+      <p class="banner_paragraph">
+        We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+        But is it really fulfilling its promise?
+      </p>
+      <a href="#" class="link_btn">
+        Read more
+      </a>
+    </div>
+
+  </div>
+
+</section>
+
+
+  <section class="container news">
+    <h2 class="news_title">New</h2>
+    <h3 class="news_subtitle">Hydrogen VS Electric Cars</h3>
+    <p class="news_paragraph">Will hydrogen-fueled cars ever catch up to EVs?</p>
+    <hr>
+    <h3 class="news_subtitle">The Downsides of AI Artistry</h3>
+    <p class="news_paragraph">What are the possible adverse effects of on-demand AI image generation?</p>
+    <hr>
+    <h3 class="news_subtitle">Is VC Funding Drying Up?</h3>
+    <p class="news_paragraph">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+  </section>
+
+  <section class="cards_wrap container">
+    <div class="card">
+      <figure class="card_img">
+        <img src="assets/images/image-retro-pcs.jpg" alt="card1" class="general_img">
+      </figure>
+      <div class="card_content">
+        <span class="card_number">01</span>
+        <h3 class="card_title">Reviving Retro PCs</h3>
+        <p class="card_paragraph">What happens when old PCs are given modern upgrades?</p>
+      </div>
+    </div>
+    <div class="card">
+      <figure class="card_img">
+        <img src="assets/images/image-top-laptops.jpg" alt="card1" class="general_img">
+      </figure>
+      <div class="card_content">
+        <span class="card_number">02</span>
+        <h3 class="card_title">Top 10 Laptops of 2022</h3>
+        <p class="card_paragraph">Our best picks for various needs and budgets.</p>
+      </div>
+      </div>
+    </div>
+    <div class="card">
+      <figure class="card_img">
+        <img src="assets/images/image-gaming-growth.jpg" alt="card1" class="general_img">
+      </figure>
+      <div class="card_content">
+        <span class="card_number">03</span>
+        <h3 class="card_title">The Growth of Gaming</h3>
+        <p class="card_paragraph">How the pandemic has sparked fresh opportunities.</p>
+      </div>
+  </section>
+
+
+
+<footer>
+  <div class="container">
+    <p class="footer_paragraph">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    </p>
+    <p class="footer_paragraph">
+      Coded by <a href="#">Minux</a>.
+    </p>    
+  </div>
+</footer>
+
+
+<script src="scripts/main.js"></script>
+
+
+</body>
+</html>
